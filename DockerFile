@@ -13,3 +13,6 @@ nodejs \
 npm
 
 ENV GRADLE_HOME /usr/share/gradle
+
+# Define default command.
+CMD ["bash"]
