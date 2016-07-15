@@ -42,11 +42,6 @@ RUN npm config set proxy http://$QA_PROXY_HOST:$QA_PROXY_PORT
 RUN npm config set https-proxy http://$QA_PROXY_HOST:$QA_PROXY_PORT
 RUN npm config set registry https://npm.artifactory.homedepot.com/artifactory/api/npm/npm
 
-# install Bower
-RUN npm install -g bower
-
-#install gulp
-RUN npm install -g gulp
 
 ENV http_proxy="http://$QA_PROXY_HOST:$QA_PROXY_PORT"
 ENV https_proxy="http://$QA_PROXY_HOST:$QA_PROXY_PORT"
