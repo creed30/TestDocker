@@ -14,5 +14,8 @@ npm
 
 ENV GRADLE_HOME /usr/share/gradle
 
+# Define working directory.
+WORKDIR /data
+
 # Define default command.
 CMD ["bash"]
