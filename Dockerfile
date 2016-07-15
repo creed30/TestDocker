@@ -10,8 +10,7 @@ curl \
 libxml-xpath-perl \
 build-essential \
 nodejs \
-npm \
-oracle-java8-installer
+npm 
 
 # setup proxy variables
 ENV QA_PROXY_HOST=str-www-proxy2-qa.homedepot.com
